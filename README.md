@@ -113,7 +113,7 @@ The evaluation scripts have built-in logic to load and evaluate the following da
 ## Key Features
 - **LoRA Efficient Fine-tuning**: Reproduces the paper's training settings, allowing fine-tuning of 7B models with low VRAM usage.
 - **Prompt Mode**: Supports `standard` (QA format) and `tiser` (Specific format) prompt modes.
-- **Flash Attention 2**: Training and inference enable Flash Attention 2 acceleration by default (requires hardware support).
+- **Flash Attention 2**: Enable Flash Attention 2 acceleration by default (requires hardware support).
 - **Advanced Reasoning Extensions**: Integrates Self-Correction and Self-Consistency strategies.
 
 ## License

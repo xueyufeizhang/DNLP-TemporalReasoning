@@ -11,7 +11,7 @@ The project consists of three core components:
 ```text
 DNLP-TemporalReasoning/
 │
-├── data/               # Dataset files (SemEval 2026)
+├── data/               # Dataset files (TISER)
 │   ├── TISER_train.json          # Raw training data
 │   ├── TISER_test.json           # Raw test data
 │   └── TISER_test_random_3000.json  # Sampled test data

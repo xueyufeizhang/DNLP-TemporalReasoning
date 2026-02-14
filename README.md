@@ -16,6 +16,7 @@ DNLP-TemporalReasoning/
 │   ├── TISER_test.json           # Raw test data
 │   └── TISER_test_random_3000.json  # Sampled test data
 ├── model/              # Model weights and LoRA adapters
+├── report/             # LaTex code of final report
 ├── src/
 │   ├── data_format.ipynb         # Data preprocessing and sampling Notebook
 │   ├── finetune_qwen.py          # Qwen2.5 LoRA fine-tuning script (Baseline)
@@ -23,9 +24,7 @@ DNLP-TemporalReasoning/
 │   ├── eval_benchmark.py         # Standard evaluation script (Single inference - Baseline)
 │   ├── eval_benchmark_bathch.py  # Batch evaluation script (Batch inference - Baseline)
 │   ├── extension_sc.py           # Extension 1: Self-Consistency (Majority Voting)
-│   ├── extension_sys2.py         # Extension 2: System 2 (Logic-based Iterative Correction)
-├── requirements.txt    # python dependencies
-└── run.py              # Main entry point for experiments
+└── └── extension_sys2.py         # Extension 2: System 2 (Logic-based Iterative Correction)
 ```
 
 ## Quick Start
